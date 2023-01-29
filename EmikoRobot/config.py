@@ -31,7 +31,7 @@ class Config(object):
 # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://astrabot_user:6Ag5qzr3gKvqcZngSraoVVsDtfuqJIWH@dpg-cf1vbf14reb5o43lkbt0-a.oregon-postgres.render.com/astrabot"  # needed for any database modules
     MONGO_DB_URI = "mongodb+srv://astra:astra309@astra.bcxwk6t.mongodb.net/?retryWrites=true&w=majority"
-"  # needed for any database modules
+# needed for any database modules
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
     BOT_API_URL = "https://api.telegram.org/bot"
@@ -70,7 +70,7 @@ class Config(object):
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = "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"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
     ALLOW_CHATS = None
