@@ -17,8 +17,8 @@ class Config(object):
     TOKEN = "5887149982:AAEKl6PNx9ff4UClt7iodhihkoH6Ko_IdkU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1493545483  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
-    OWNER_USERNAME = "Scotchers"
-    BOT_USERNAME = "Pilotgalaxy"
+    OWNER_USERNAME = "Pilotgalaxy"
+    BOT_USERNAME = "Cyb3rAstraBot"
     SUPPORT_CHAT = "Cyb3rAstraSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001188252896
@@ -30,7 +30,7 @@ class Config(object):
 
 # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://astrabot_user:6Ag5qzr3gKvqcZngSraoVVsDtfuqJIWH@dpg-cf1vbf14reb5o43lkbt0-a.oregon-postgres.render.com/astrabot"  # needed for any database modules
-    MONGO_DB_URI = "mongodb+srv://astra:astra309@astra.bcxwk6t.mongodb.net/?retryWrites=true&w=majority
+    MONGO_DB_URI = "mongodb+srv://astra:astra309@astra.bcxwk6t.mongodb.net/?retryWrites=true&w=majority"
 "  # needed for any database modules
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
@@ -40,7 +40,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "VNQHaQdcjVqhdk4~CjUQStHzwsK3kFu4sv3cxkanmQAGRkELOfKNDQHQ6vc0cfE3"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
