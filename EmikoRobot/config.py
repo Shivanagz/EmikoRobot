@@ -29,7 +29,7 @@ class Config(object):
     ERROR_LOG = -1001188252896
 
 # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://astrabot_user:6Ag5qzr3gKvqcZngSraoVVsDtfuqJIWH@dpg-cf1vbf14reb5o43lkbt0-a.oregon-postgres.render.com/astrabot"  # needed for any database modules
     MONGO_DB_URI = "mongodb+srv://astra:astra309@astra.bcxwk6t.mongodb.net/?retryWrites=true&w=majority
 "  # needed for any database modules
     ARQ_API_URL = "https://arq.hamker.in"
